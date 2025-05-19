@@ -1006,4 +1006,4 @@ if st.button("Execute Search", key="execute_button"):
                   result_prefix = f"Search completed in {execution_time:.2f} seconds.\n\n"
                   st.text_area("Results", result_prefix + formatted_output, height=400, key="results_area")
              else:
-                  st.text_area("Results", f"Search timed out after {timeout_seconds} seconds.", height=50, key="results_area_timeou")
+                  st.text_area("Results", f"Search timed out after {timeout_seconds} seconds.", height=68, key="results_area_timeou")
